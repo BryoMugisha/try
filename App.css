@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+  }
+  
+  .app {
+    background-color: #111;
+  }
+  
+  .pic_posters {
+    padding-left: 10px;
+    display: flex;
+  
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+  
+  .pic_posters::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .pic_posters img {
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    border: 2px solid #666;
+    margin-right: 50px;
+  
+    object-fit: contain;
+  }
+  
+  .pic_posters img:hover {
+    transition: 0.3s;
+    transform: scale(1.09);
+    cursor: pointer;
+  }
+  
+  .pic_posters > h2 {
+    color: aliceblue;
+    padding-right: 10px;
+    display: flex;
+  }
+  

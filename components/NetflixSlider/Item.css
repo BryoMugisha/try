@@ -1,0 +1,22 @@
+.item {
+  flex: 0 0 19.7%;
+  transition: transform 300ms ease 100ms;
+  margin: 0 5px;
+  position: relative;
+  padding-right: 40px;
+  
+  
+}
+.item img {
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    border: 2px solid #666;
+    margin-right: 50px;
+    
+    
+  }
+
